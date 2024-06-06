@@ -2,12 +2,12 @@
 
 SerialPort-GSM - A library for the communication with GSM modems like sending and receiving SMS messages.
 
-[![NPM](https://nodei.co/npm/serialport-gsm.png)](https://npmjs.org/package/serialport-gsm)
+[![NPM](https://nodei.co/npm/@remimomprive/serialport-gsm-typescript.png)](https://npmjs.org/package/@remimomprive/serialport-gsm-typescript)
 
 ## Install
 
 ```bash
-npm i serialport-gsm
+npm i @remimomprive/serialport-gsm-typescript
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm i serialport-gsm
 Usage in JavaScript/TypeScript (with ES Modules):
 
 ```typescript
-import { Modem, SerialPortCommunicator } from 'serialport-gsm';
+import { Modem, SerialPortCommunicator } from '@remimomprive/serialport-gsm-typescript';
 
 // Initialize a SerialPortCommunicator. For more options take a look at the full documentaion
 const serialPortCommunicator = new SerialPortCommunicator('COM4');
@@ -47,18 +47,8 @@ async function start() {
 start();
 ```
 
-You can find more information in the **[full documentation](https://zabsalahid.github.io/serialport-gsm/)**.
-
 ---
-
-## ❤️ Contributors
-
-**Our thanks go to these wonderful people who have contributed to this project:**
-
-[![Contributors](https://contrib.rocks/image?repo=zabsalahid/serialport-gsm)](https://github.com/zabsalahid/serialport-gsm/graphs/contributors)
-
-Made with [contrib.rocks](https://contrib.rocks).
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! Feel you free to check [issues page](https://github.com/zabsalahid/serialport-gsm/issues) or create a [pull request](https://github.com/zabsalahid/serialport-gsm/pulls). We are happy about collaboration on this project.
+Contributions, issues and feature requests are welcome! Feel you free to check [issues page](https://github.com/@remimomprive/serialport-gsm-typescript/issues) or create a [pull request](https://github.com/@remimomprive/serialport-gsm-typescript/pulls). We are happy about collaboration on this project.

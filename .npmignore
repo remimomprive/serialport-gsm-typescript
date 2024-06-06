@@ -12,3 +12,4 @@ src
 tsconfig.json
 typedoc.css
 yarn.lock
+.idea

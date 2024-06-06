@@ -1,9 +1,9 @@
 {
-	"name": "serialport-gsm",
+	"name": "@remimomprive/serialport-gsm-typescript",
 	"version": "5.0.0",
 	"description": "Library for the communication with GSM modems like sending and receiving SMS messages",
 	"license": "MIT",
-	"homepage": "https://github.com/zabsalahid/serialport-gsm#readme",
+	"homepage": "https://github.com/remimomprive/serialport-gsm-typescript#readme",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"dependencies": {
@@ -33,13 +33,13 @@
 	"engines": {
 		"node": ">=16.0.0"
 	},
-	"author": "Zabdiel G. Salahid <zabsalahid@gmail.com> (https://github.com/zabsalahid)",
+	"author": "Remi Momprive <remi.momprive@gmail.com> (https://github.com/remimomprive)",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/zabsalahid/serialport-gsm.git"
+		"url": "https://github.com/remimomprive/serialport-gsm-typescript.git"
 	},
 	"bugs": {
-		"url": "https://github.com/zabsalahid/serialport-gsm/issues"
+		"url": "https://github.com/remimomprive/serialport-gsm-typescript/issues"
 	},
 	"keywords": [
 		"gsm",
