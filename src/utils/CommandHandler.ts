@@ -168,7 +168,7 @@ export class CommandHandler {
 
 			// new incomming SMS
 			if (part.toUpperCase().startsWith('+CMTI:')) {
-				const smsID = Number(part.match(/\d+/g)?.[1] || NaN);
+				const smsID = Number(part.match(/\d+/g)?.[0] || NaN);
 
 				if (!isNaN(smsID)) {
 					this.events.emit('onNewSms', smsID);

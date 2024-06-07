@@ -684,7 +684,6 @@ export class Modem {
 					index: Number(splitedPart[0].substring(7)),
 					status: Number(splitedPart[1].replace(/"/g, '')),
 					sender: splitedPart[2].replace(/"/g, ''),
-					timestamp: splitedPart[4].replace(/"/g, '') + ', ' + splitedPart[5].replace(/"/g, '')
 				};
 
 				continue;

@@ -1,6 +1,6 @@
 {
 	"name": "@remimomprive/serialport-gsm-typescript",
-	"version": "5.0.0",
+	"version": "5.0.1",
 	"description": "Library for the communication with GSM modems like sending and receiving SMS messages",
 	"license": "MIT",
 	"homepage": "https://github.com/remimomprive/serialport-gsm-typescript#readme",
